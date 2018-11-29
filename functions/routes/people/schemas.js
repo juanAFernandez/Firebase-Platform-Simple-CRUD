@@ -5,7 +5,6 @@ const personDataSchema = joi.object().keys({
     last_name: joi.string().required()
 })
 
-
 module.exports = {
     personDataSchema: personDataSchema
 };

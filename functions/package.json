@@ -9,9 +9,11 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "express": "4.16.4",
     "firebase-admin": "6.2.0",
-    "firebase-functions": "^2.1.0",
-    "express": "4.16.4"
+    "firebase-functions": "2.1.0",
+    "joi": "14.3.0",
+    "package.json": "2.0.1"
   },
   "private": true,
   "engines": {

@@ -1,0 +1,203 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-11-29T19:03:18.017Z",
+	"__export_source": "insomnia.desktop.app:v6.2.0",
+	"resources": [
+		{
+			"_id": "wrk_740774248d664f78bd3407a2845f95ab",
+			"created": 1531904096387,
+			"description": "A simple testing way :)",
+			"modified": 1543518139000,
+			"name": "FirebaseCRUD",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_b0f92bae59434266b0898630e6b111ef",
+			"color": null,
+			"created": 1531904096455,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1542889064512,
+			"modified": 1542889098705,
+			"name": "New Environment",
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_c81461e201204a44ae4b0440f5711131",
+			"cookies": [],
+			"created": 1531904096586,
+			"modified": 1531904096586,
+			"name": "Default Jar",
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_660f854a5cd04c57941d42571b459dc6",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"first_name\": \"example first name\",\n\t\"last_name\": \"example last name\"\n}"
+			},
+			"created": 1542889413904,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_9b9337ba0f214d9aabcc37fb2317ba0b",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1542889413904,
+			"method": "POST",
+			"modified": 1543518077877,
+			"name": "Post person",
+			"parameters": [],
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/people",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6da2656adff948c6beee89bdebc2ccaf",
+			"authentication": {},
+			"body": {},
+			"created": 1543490950378,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1543490950378,
+			"method": "GET",
+			"modified": 1543518079132,
+			"name": "List people",
+			"parameters": [],
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/people",
+			"_type": "request"
+		},
+		{
+			"_id": "req_aa78bdcfacd4498cb38204b78f1a8694",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"created": 1543510691510,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_741ace5ef28f4aa6a154d4c724c5b593",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1543510691510,
+			"method": "DELETE",
+			"modified": 1543518081692,
+			"name": "Delete person",
+			"parameters": [],
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/people/AsfmUbbUHsmbMH8ArsC1",
+			"_type": "request"
+		},
+		{
+			"_id": "req_07ad8813647c4e98bfa6c38bb3b15e44",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"first_name\": \"Lucia\",\n\t\"last_name\": \"Juan\"\n}"
+			},
+			"created": 1543511287485,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_741ace5ef28f4aa6a154d4c724c5b593",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1543500820944,
+			"method": "PUT",
+			"modified": 1543518079916,
+			"name": "Update person (Copy)",
+			"parameters": [],
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/people/LeYQwnUKeum2o1Gkg8XD",
+			"_type": "request"
+		},
+		{
+			"_id": "req_2881c6f1824d4c9595e707bcaf3e0197",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"first_name\": \"Lucia\",\n\t\"last_name\": \"Juan\"\n}"
+			},
+			"created": 1543511734479,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_741ace5ef28f4aa6a154d4c724c5b593",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1543505756227,
+			"method": "GET",
+			"modified": 1543518080606,
+			"name": "Update person (Copy)",
+			"parameters": [],
+			"parentId": "wrk_740774248d664f78bd3407a2845f95ab",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ base_url  }}/people/54OaWKhRw6bEHiAF6Qq3",
+			"_type": "request"
+		},
+		{
+			"_id": "env_a0019f6d2ce84874bc0efa4836f82b77",
+			"color": "#150dce",
+			"created": 1542889113329,
+			"data": {
+				"base_url": "YOUR URL HERE"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1542889113329,
+			"modified": 1543508559704,
+			"name": "Development",
+			"parentId": "env_b0f92bae59434266b0898630e6b111ef",
+			"_type": "environment"
+		}
+	]
+}
